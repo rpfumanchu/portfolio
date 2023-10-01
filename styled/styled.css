@@ -1,0 +1,178 @@
+/* Estilo para elementos colapsados */
+.collapse:not(.show) {
+  display: none;
+}
+
+/* Transiciones para colapsar */
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  /* Aquí puedes definir las transiciones si las necesitas */
+  /* transition: ...; */
+}
+body {
+  background-color: #f8edeb;
+}
+
+/* navbar */
+
+.nav-pills .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+  padding-left: 1.5rem;
+}
+
+.bg-light {
+  background-color: #ffe5b4 !important;
+}
+
+/* header */
+
+.card {
+  border: none;
+}
+
+.card-header {
+  border: none;
+
+  background-color: #f8edeb !important;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  background-color: #f8edeb;
+}
+
+.img-fluid {
+  height: 350px;
+  width: 90%;
+}
+
+/* card */
+
+.bg-dark {
+  background-color: #212529e0 !important;
+}
+
+.mb-2 {
+  margin-bottom: 0px !important;
+}
+
+h4 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.bg-info {
+  background-color: #f8edeb !important;
+}
+
+.text-decoration-underline {
+  text-underline-offset: 0.3em;
+  text-decoration-color: #dc3545 !important;
+  margin-bottom: 12px;
+}
+
+.text-center {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 40px;
+  background-color: #ffe5b4;
+}
+
+.card-text {
+  margin-bottom: 15px !important;
+  font-size: 1.7rem;
+  line-height: 1.9rem;
+}
+
+.element.style {
+  max-width: 0px;
+}
+
+/* proyectos */
+
+.card-title {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 40px;
+  background-color: #ffe5b4;
+}
+
+.gap-1 {
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+/* proyecto final */
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  height: 60rem;
+  width: 100%;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 40px;
+  background-color: #ffe5b4;
+}
+
+/* footer */
+
+.text-start {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.card-header-footer {
+  font-size: 2.5rem;
+  background-color: #ffe5b4;
+}
+
+.card-body {
+  background-color: #f8edeb;
+  text-align: left;
+}
+.btn {
+  margin-top: 10px;
+}
+
+.icon {
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
