@@ -11,7 +11,8 @@
   /* transition: ...; */
 }
 body {
-  background-color: #f8edeb;
+  font-family: sans-serif;
+  background-color: #e0ffff;
 }
 
 /* navbar */
@@ -26,7 +27,7 @@ body {
 }
 
 .bg-light {
-  background-color: #ffe5b4 !important;
+  background-color: #87cefa !important;
 }
 
 /* header */
@@ -38,18 +39,13 @@ body {
 .card-header {
   border: none;
 
-  background-color: #f8edeb !important;
+  background-color: #e0ffff !important;
 }
 
 .container-fluid {
   display: flex;
   justify-content: center;
-  background-color: #f8edeb;
-}
-
-.img-fluid {
-  height: 350px;
-  width: 90%;
+  background-color: #e0ffff;
 }
 
 /* card */
@@ -68,7 +64,7 @@ h4 {
 }
 
 .bg-info {
-  background-color: #f8edeb !important;
+  background-color: #e0ffff !important;
 }
 
 .text-decoration-underline {
@@ -77,12 +73,16 @@ h4 {
   margin-bottom: 12px;
 }
 
+.border-danger {
+  border-color: #5086c1 !important;
+}
+
 .text-center {
   font-weight: bold;
   color: black;
   margin-bottom: 10px;
   font-size: 40px;
-  background-color: #ffe5b4;
+  background-color: #e0ffff;
 }
 
 .card-text {
@@ -102,7 +102,7 @@ h4 {
   color: black;
   margin-bottom: 10px;
   font-size: 40px;
-  background-color: #ffe5b4;
+  background-color: #e0ffff;
 }
 
 .gap-1 {
@@ -125,15 +125,18 @@ h4 {
 
 .card-title {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-weight: bold;
   color: black;
   margin-bottom: 10px;
   font-size: 40px;
-  background-color: #ffe5b4;
+  background-color: #e0ffff;
 }
 
 /* footer */
+.container-footer {
+  width: 100%;
+}
 
 .text-start {
   display: flex;
@@ -145,13 +148,9 @@ h4 {
   display: flex;
   justify-content: center;
   font-size: 2.5rem;
-  background-color: #ffe5b4;
+  background-color: #87cefa;
 }
 
-.card-body {
-  background-color: #f8edeb;
-  text-align: left;
-}
 .btn {
   margin-top: 10px;
 }
@@ -159,6 +158,54 @@ h4 {
 .icon {
   height: 2.5rem;
   margin-right: 1rem;
+}
+
+.card-final {
+  width: 100%;
+}
+
+.card-body-final {
+  width: 100%;
+  background-color: #87cefa;
+  text-align: left;
+}
+
+.card-title-final {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 6px;
+  font-size: 1.4rem;
+}
+
+.img-fluid {
+  height: 350px;
+  width: 100%;
+}
+
+.card-text-final {
+  display: flex;
+  justify-content: center;
+}
+
+.card-header-final {
+  display: flex;
+  justify-content: center;
+  background-color: #87cefa;
+}
+.card-title-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #87cefa;
+  margin-bottom: 6px;
+  font-size: 1.4rem;
+}
+
+.card-body-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #87cefa;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)
@@ -215,7 +262,7 @@ h4 {
 
   .card-body {
     width: 23rem;
-    background-color: #f8edeb;
+
     text-align: left;
   }
 
@@ -225,7 +272,7 @@ h4 {
 
   .card-body-final {
     width: 100%;
-    background-color: #f8edeb;
+
     text-align: left;
   }
 
@@ -248,7 +295,6 @@ h4 {
   }
 
   .card-header-final {
-    background-color: #ffe5b4;
     display: flex;
     justify-content: center;
   }
@@ -256,7 +302,6 @@ h4 {
   .card-body-footer {
     display: flex;
     justify-content: center;
-    background-color: #ffe5b4;
   }
 }
 
