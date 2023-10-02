@@ -142,6 +142,8 @@ h4 {
 }
 
 .card-header-footer {
+  display: flex;
+  justify-content: center;
   font-size: 2.5rem;
   background-color: #ffe5b4;
 }
@@ -185,6 +187,18 @@ h4 {
     margin-bottom: 12px;
   }
 
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  .text-white {
+    font-size: 1.4rem;
+  }
+
+  .text-center {
+    font-size: 1.4rem;
+  }
+
   .card {
     width: 21.5rem;
   }
@@ -219,6 +233,23 @@ h4 {
     width: 100%;
     margin-bottom: 6px;
     font-size: 1.4rem;
+  }
+
+  .img-fluid {
+    height: 350px;
+    width: 100%;
+  }
+
+  .card-header-final {
+    background-color: #ffe5b4;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-body-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ffe5b4;
   }
 }
 
