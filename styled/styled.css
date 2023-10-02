@@ -230,6 +230,8 @@ h4 {
   }
 
   .card-title-final {
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin-bottom: 6px;
     font-size: 1.4rem;
@@ -238,6 +240,11 @@ h4 {
   .img-fluid {
     height: 350px;
     width: 100%;
+  }
+
+  .card-text-final {
+    display: flex;
+    justify-content: center;
   }
 
   .card-header-final {
