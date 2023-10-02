@@ -91,6 +91,13 @@ h4 {
   line-height: 1.9rem;
 }
 
+.text-white {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
 .element.style {
   max-width: 0px;
 }
