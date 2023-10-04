@@ -15,6 +15,16 @@ body {
   background-color: #e0ffff;
 }
 
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  /* display: flex; */
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * 0);
+  margin-left: calc(var(--bs-gutter-x) * 0);
+}
+
 /* navbar */
 
 .nav-pills .nav-link {
@@ -86,6 +96,8 @@ h4 {
 }
 
 .card-text {
+  display: flex;
+  justify-content: center;
   margin-bottom: 15px !important;
   font-size: 1.7rem;
   line-height: 1.9rem;
@@ -310,6 +322,13 @@ h4 {
     display: flex;
     justify-content: center;
   }
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  height: 30rem;
+  width: 100%;
 }
 
 @media (min-width: 576px) {
