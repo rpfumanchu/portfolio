@@ -3,7 +3,25 @@ body {
   background-color: #84b6f4;
 }
 
+/* colors */
+
+.bg-primary {
+  background-color: #5086c1 !important;
+}
+
+.bg-secondary {
+  background-color: #6a9eda !important;
+}
+
+.bg-terciary {
+  background-color: #dcffff !important;
+}
+
 /* navbar */
+
+.navbar {
+  height: 5rem;
+}
 
 .nav-pills .nav-link {
   color: black;
@@ -12,10 +30,6 @@ body {
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
   padding-left: 1.5rem;
-}
-
-.bg-light {
-  background-color: #5086c1 !important;
 }
 
 /* header */
@@ -36,9 +50,19 @@ body {
   background-color: #84b6f4;
 }
 
+.container-card {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  max-width: 1140px;
+}
+
 .img-fluid {
   height: 250px;
   width: 100%;
+  vertical-align: bottom;
+  background-color: #5086c1;
 }
 
 /* card */
@@ -65,15 +89,35 @@ body {
 
 /* proyectos */
 
+.text-decoration-underline {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5086c1;
+  text-underline-offset: 0.3em;
+  text-decoration-color: #5086c1 !important;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
 /* .card-final {
   width: 100%;
 } */
 
+.col-project {
+  padding: 20px;
+  border: 2px solid #5086c1;
+  border-radius: 12px;
+  background-color: gainsboro;
+}
+
 .card-img-bottom {
   height: 17rem;
   width: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
+  align-items: center; */
   margin-bottom: 6px;
 }
 
@@ -82,12 +126,17 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 0px;
+  align-items: center;
 }
 
 .card-title-final {
+  height: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 1.3rem;
+  font-weight: bold;
+  background-color: #5086c1;
   margin-bottom: 6px;
 }
 
@@ -100,6 +149,7 @@ body {
 .link-proyect {
   display: flex !important;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 /* footer */
@@ -142,6 +192,11 @@ body {
 
   /* header */
 
+  .card-img-bottom {
+    height: 17rem;
+    width: 80%;
+  }
+
   .img-fluid {
     height: 300px;
   }
@@ -151,18 +206,22 @@ body {
   }
 
   .card-text-proyect {
-    height: 11rem;
+    height: 13rem;
   }
 
   .card-body-proyect {
-    height: 18rem;
+    height: 20rem;
   }
 
   .card-title-proyect {
-    height: 1.5rem;
+    height: 1.7rem;
   }
 
   /* proyectos */
+
+  .card-text-final {
+    width: 80%;
+  }
 
   /* footer */
 
@@ -182,6 +241,10 @@ body {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   /* navbar */
+
+  .navbar {
+    height: 6rem;
+  }
   .link {
     display: block;
   }
@@ -196,17 +259,28 @@ body {
     height: 350px;
   }
 
+  .card-img-bottom {
+    height: 17rem;
+    width: 70%;
+  }
+
   /* card */
 
   .card-title-proyect {
-    height: 1.5rem;
+    height: 3rem;
   }
+
   .card-body-proyect {
-    height: 22rem;
+    height: 24rem;
   }
 
   .card-text-proyect {
     height: 15.5rem;
+  }
+
+  /* proyectos */
+  .card-text-final {
+    width: 70%;
   }
 
   /* footer */
@@ -217,14 +291,35 @@ body {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  /* navbar */
+
+  .navbar {
+    height: 5rem;
+  }
+
+  /* header */
+  .card-img-bottom {
+    height: 19rem;
+    width: 50%;
+  }
+
   /* card */
 
+  .card-title-proyect {
+    height: 1.8rem;
+  }
+
   .card-body-proyect {
-    height: 15.5rem;
+    height: 17rem;
   }
 
   .card-text-proyect {
-    height: 9rem;
+    height: 10rem;
+  }
+
+  /* proyectos */
+  .card-text-final {
+    width: 50%;
   }
 }
 
@@ -233,17 +328,34 @@ body {
   /* card */
 
   .card-title-proyect {
-    height: 0.5rem;
+    font-size: 1.5rem;
+    height: 2.5rem;
   }
   .card-body-proyect {
-    height: 14rem;
+    height: 29rem;
   }
 
   .card-text-proyect {
-    height: 8rem;
+    font-size: 1.3rem;
+    height: 21rem;
+    line-height: 1.9rem;
+  }
+
+  .text-decoration-underline {
+    font-size: 2rem;
+  }
+
+  /* proyectos */
+  .card-text-final {
+    width: 40%;
   }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  /* header */
+  .card-img-bottom {
+    height: 19rem;
+    width: 40%;
+  }
 }
