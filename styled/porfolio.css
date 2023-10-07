@@ -15,7 +15,7 @@ body {
 }
 
 .bg-light {
-  background-color: #0d6efd !important;
+  background-color: #5086c1 !important;
 }
 
 /* header */
@@ -60,9 +60,47 @@ body {
 .card-title-proyect {
   height: 1.5rem;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 /* proyectos */
+
+/* .card-final {
+  width: 100%;
+} */
+
+.card-img-bottom {
+  height: 17rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.card-body-final {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+}
+
+.card-title-final {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+.card-text-final {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 0 1rem 0 1rem;
+}
+
+.link-proyect {
+  display: flex !important;
+  justify-content: center;
+}
 
 /* footer */
 
