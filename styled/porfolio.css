@@ -17,6 +17,11 @@ body {
   background-color: #dcffff !important;
 }
 
+.button-link {
+  color: white;
+  text-decoration: none;
+}
+
 /* navbar */
 
 .navbar {
@@ -72,6 +77,11 @@ body {
 }
 
 /* card */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .card {
   display: contents;
@@ -85,6 +95,13 @@ body {
 
 .card-text {
   margin-bottom: 10px;
+}
+
+.card-body-proyect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-title-proyect {
@@ -117,6 +134,12 @@ body {
 } */
 
 .col-project {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
   padding: 20px;
   border: 2px solid #5086c1;
   border-radius: 12px;
@@ -138,6 +161,7 @@ body {
   justify-content: center;
   padding: 0px;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .card-title-final {
@@ -204,6 +228,11 @@ body {
 }
 
 @media (min-width: 576px) {
+  .col-project {
+    width: 20rem;
+    margin: 0.25rem;
+  }
+
   /* navbar */
   .navbar-light .navbar-brand {
     font-size: 1rem;
@@ -226,10 +255,6 @@ body {
 
   .card-text-proyect {
     height: 13rem;
-  }
-
-  .card-body-proyect {
-    height: 20rem;
   }
 
   .card-title-proyect {
@@ -289,16 +314,20 @@ body {
 
   /* card */
 
-  .card-title-proyect {
-    height: 3rem;
+  .col-project {
+    width: 21rem;
   }
 
-  .card-body-proyect {
-    height: 24rem;
+  .card-title-proyect {
+    height: 2.1rem;
   }
+
+  /* .card-body-proyect {
+    height: 24rem;
+  } */
 
   .card-text-proyect {
-    height: 15.5rem;
+    height: 13rem;
   }
 
   /* proyectos */
@@ -309,6 +338,10 @@ body {
   /* footer */
   .text-footer {
     font-size: 1.4rem;
+  }
+
+  .container-card {
+    max-width: none;
   }
 }
 
@@ -328,16 +361,24 @@ body {
 
   /* card */
 
-  .card-title-proyect {
-    height: 1.8rem;
+  .col-project {
+    width: 21rem;
   }
 
-  .card-body-proyect {
-    height: 17rem;
+  .row {
+    align-items: normal;
   }
+
+  .card-title-proyect {
+    height: 2rem;
+  }
+
+  /* .card-body-proyect {
+    height: 17rem;
+  } */
 
   .card-text-proyect {
-    height: 10rem;
+    height: 13rem;
   }
 
   /* proyectos */
@@ -348,6 +389,12 @@ body {
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .col-project {
+    width: 23rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
   /* header */
   .card-text-final {
     font-size: 1.6rem;
@@ -361,9 +408,9 @@ body {
     font-size: 1.5rem;
     height: 2.5rem;
   }
-  .card-body-proyect {
+  /* .card-body-proyect {
     height: 29rem;
-  }
+  } */
 
   .card-text-proyect {
     font-size: 1.3rem;
