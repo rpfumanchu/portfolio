@@ -37,6 +37,12 @@ body {
   padding-left: 1.5rem;
 }
 
+.popover-body {
+  font-size: 1.1rem;
+  padding: 1rem 1rem;
+  color: #212529;
+}
+
 /* header */
 
 .card-text-final {
@@ -252,6 +258,12 @@ body {
 }
 
 @media (min-width: 576px) {
+  .popover-body {
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    color: #212529;
+  }
+
   .col-project {
     width: 20rem;
     margin: 0.25rem;
@@ -312,6 +324,12 @@ body {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .popover-body {
+    font-size: 1.4rem;
+    padding: 1rem 1rem;
+    color: #212529;
+  }
+
   /* navbar */
 
   .navbar {
@@ -379,6 +397,12 @@ body {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .popover-body {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    color: #212529;
+  }
+
   /* navbar */
 
   .navbar {
