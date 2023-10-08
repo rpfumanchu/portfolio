@@ -34,6 +34,12 @@ body {
 
 /* header */
 
+.card-text-final {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 6px;
+}
+
 .card {
   border: none;
 }
@@ -85,6 +91,11 @@ body {
   height: 1.5rem;
   margin-bottom: 10px;
   font-weight: bold;
+}
+.card-text-proyect {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-bottom: 6px;
 }
 
 /* proyectos */
@@ -138,6 +149,14 @@ body {
   font-weight: bold;
   background-color: #5086c1;
   margin-bottom: 6px;
+}
+
+.title-final {
+  font-size: 1.2rem;
+}
+
+.card-text-formacion {
+  font-size: 1.2rem;
 }
 
 .card-text-final {
@@ -254,6 +273,10 @@ body {
   }
 
   /* header */
+  .card-text-final {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
 
   .img-fluid {
     height: 350px;
@@ -325,6 +348,13 @@ body {
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  /* header */
+  .card-text-final {
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    margin-bottom: 10px;
+  }
+
   /* card */
 
   .card-title-proyect {
@@ -347,7 +377,11 @@ body {
 
   /* proyectos */
   .card-text-final {
-    width: 40%;
+    width: 45%;
+  }
+  .card-title-final {
+    height: 2.4rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -356,6 +390,11 @@ body {
   /* header */
   .card-img-bottom {
     height: 19rem;
+    width: 40%;
+  }
+
+  /* proyectos */
+  .card-text-final {
     width: 40%;
   }
 }
