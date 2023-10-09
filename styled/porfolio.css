@@ -255,6 +255,40 @@ body {
   margin-bottom: 10px;
 }
 
+.tecnologias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  margin-bottom: 10px;
+}
+
+.text-bg-dark {
+  color: #fff;
+}
+
+.card-tecnologias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-tecnologias {
+  height: 15rem;
+
+  border-radius: 12px;
+}
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  border-radius: calc(0.25rem - 1px);
+}
+
 /* footer */
 
 .card {
