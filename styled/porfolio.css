@@ -61,6 +61,14 @@ body {
 
 /* navbar */
 
+.dropdown-menu {
+  border: 1px solid #5086c1;
+}
+
+.dropdown-divider {
+  color: #5086c1;
+}
+
 .navbar {
   height: 5rem;
 }
@@ -374,15 +382,19 @@ body {
 }
 
 .container-footer {
-  background-color: #e0ffff !important;
+  background-color: #84b6f4 !important;
 }
 
 .card-body-footer {
-  background-color: #e0ffff !important;
+  background-color: #84b6f4 !important;
 }
 
 .header-footer {
-  background-color: #0d6efd !important;
+  background-color: #5086c1 !important;
+}
+
+.card-footer {
+  border-top: none;
 }
 
 @media (min-width: 576px) {
