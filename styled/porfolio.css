@@ -77,6 +77,10 @@ body {
   color: black;
 }
 
+.nav-link {
+  padding: 0.5rem 0.6rem;
+}
+
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
   padding-left: 0px;
