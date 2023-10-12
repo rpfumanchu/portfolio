@@ -314,7 +314,7 @@ body {
 .card-title-tecno-h5 {
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 3rem;
 }
 
 .card-tecnologias {
@@ -331,7 +331,7 @@ body {
 }
 
 .card-img-tecnologias {
-  height: 20rem;
+  height: 25rem;
 
   border-radius: 12px;
 }
@@ -356,11 +356,19 @@ body {
   margin-right: 1rem;
 }
 
-.text-start {
+.row-footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.text-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .link {
   display: none;
 }
@@ -428,6 +436,13 @@ body {
   }
 
   /* footer */
+  .row-footer {
+    flex-direction: row;
+  }
+
+  .text-start {
+    justify-content: center;
+  }
 
   .header-footer {
     font-size: 1.8rem;
@@ -443,6 +458,10 @@ body {
 
   .card-img-tecnologias {
     height: 18rem;
+  }
+
+  .card-title-tecno-h5 {
+    margin-bottom: 1.5rem;
   }
 }
 
